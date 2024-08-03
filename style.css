@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif; /* Replace with desired font */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.logo {
+    /* Replace with logo image or styling */
+    width: 100px;
+    height: 100px;
+   
+    background-color: #ccc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Adjust spacing between links */
+}
+
+.call-to-action {
+    /* Button styles */
+    padding: 10px 20px;
+    
+    background-color: #9ea79f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: left;
+    padding: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 300px; /* Adjust height as needed */
+}
+
+.content-box {
+    text-align: right;
+    width: 500px;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    color: black;
+}
+main {
+    text-align: left;
+    padding: 20px;
+}
+
+.mission-list {
+    list-style: none;
+    padding: 0;
+}
+
+.mission-list li {
+    margin-bottom: 10px;
+}
